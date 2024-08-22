@@ -24,7 +24,7 @@ public class Frequency_Of_Number_In_Q_Queries {
      * Brute-Force approach
      * 
      * TC: O(Q x N)
-     * SC: O(Q)
+     * SC: O(Q) ~ O(1) - ignored as needed for output
      * 
      * @param nums
      * @param n
@@ -50,7 +50,9 @@ public class Frequency_Of_Number_In_Q_Queries {
      * Optimal approach
      * 
      * TC: O(Q + N)
-     * SC: O(Q)
+     * SC: O(Q + Q) ~ O(Q)
+     * 
+     * Q(Q) for int[] freq is ignored as needed for output
      * 
      * @param nums
      * @param n
@@ -60,7 +62,7 @@ public class Frequency_Of_Number_In_Q_Queries {
      */
     private static int[] getFrequencyOptimal(int[] nums, int n, int[] queries, int q) {
         int[] freq = new int[q]; // SC: O(Q)
-        HashMap<Integer, Integer> hm = new HashMap<Integer, Integer>();
+        HashMap<Integer, Integer> hm = new HashMap<Integer, Integer>(); // SC: O(Q)
         for (int i = 0; i < n; i++) { // TC: O(N)
             hm.put(nums[i], hm.getOrDefault(nums[i], 0) + 1);
         }
