@@ -9,8 +9,19 @@ public class Max_Subset_Sum_Of_Two_Arrays_Of_Non_Consecutive_Element_Pairs {
         System.out.println(maxSum);
     }
 
+    /**
+     * Optimal Approach
+     * 
+     * TC: O(N)
+     * SC: O(N)
+     * 
+     * @param nums1
+     * @param nums2
+     * @param n
+     * @return
+     */
     private static int getMaxSum(int[] nums1, int[] nums2, int n) {
-        int[] dp = new int[n];
+        int[] dp = new int[n]; // SC: O(N)
         dp[0] = Math.max(Math.max(nums1[0], nums2[0]), 0);
         dp[1] = Math.max(nums1[1], nums2[1]); // cannot choose index 0
         /**
@@ -24,7 +35,7 @@ public class Max_Subset_Sum_Of_Two_Arrays_Of_Non_Consecutive_Element_Pairs {
          * y is best answer at index '1'
          * y = dp[1]
          */
-        for (int i = 2; i < n; i++) {
+        for (int i = 2; i < n; i++) { // TC: O(N)
             int x = Math.max(nums1[i], nums2[i]) + dp[i - 2];
             int y = dp[i - 1];
             dp[i] = Math.max(x, y);
