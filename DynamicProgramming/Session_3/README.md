@@ -1,5 +1,8 @@
 ## Problem: Select maximum sum subset from the two arrays such that no two elements are consecutive.[Dynamic-Programming-Set-3]
 
+### Link: 
+    https://www.geeksforgeeks.org/maximize-sum-of-subsets-from-two-arrays-having-no-consecutive-values/
+
 ### Aim of this series:- 
 
 “To make you fall in love with Dynamic Programming. To show you the actual beauty of this topic. To go from beginner level to master level.”
