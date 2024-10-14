@@ -1,4 +1,4 @@
-package DynamicProgramming.Session_6;
+package DynamicProgramming.Session_06;
 
 public class Max_Sum_Of_Journey {
     public static void main(String[] args) {

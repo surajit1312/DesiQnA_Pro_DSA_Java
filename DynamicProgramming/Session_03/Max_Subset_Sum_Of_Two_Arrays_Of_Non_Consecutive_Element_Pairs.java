@@ -1,4 +1,4 @@
-package DynamicProgramming.Session_3;
+package DynamicProgramming.Session_03;
 
 public class Max_Subset_Sum_Of_Two_Arrays_Of_Non_Consecutive_Element_Pairs {
     public static void main(String[] args) {

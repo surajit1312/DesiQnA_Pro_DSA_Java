@@ -1,4 +1,4 @@
-package DynamicProgramming.Session_2;
+package DynamicProgramming.Session_02;
 
 public class Max_Subset_Sum_In_Array_Of_Non_Adjacent_Elements {
     public static void main(String[] args) {

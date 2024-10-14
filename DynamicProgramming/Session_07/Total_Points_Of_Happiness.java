@@ -1,4 +1,4 @@
-package DynamicProgramming.Session_7;
+package DynamicProgramming.Session_07;
 
 public class Total_Points_Of_Happiness {
     public static void main(String[] args) {

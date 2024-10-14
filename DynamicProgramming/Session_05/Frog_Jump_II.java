@@ -1,4 +1,4 @@
-package DynamicProgramming.Session_5;
+package DynamicProgramming.Session_05;
 
 public class Frog_Jump_II {
     public static void main(String[] args) {

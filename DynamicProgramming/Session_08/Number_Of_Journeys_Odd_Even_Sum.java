@@ -1,4 +1,4 @@
-package DynamicProgramming.Session_8;
+package DynamicProgramming.Session_08;
 
 import java.util.Arrays;
 

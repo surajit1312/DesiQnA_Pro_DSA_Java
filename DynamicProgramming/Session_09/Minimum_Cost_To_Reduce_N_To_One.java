@@ -1,4 +1,4 @@
-package DynamicProgramming.Session_9;
+package DynamicProgramming.Session_09;
 
 public class Minimum_Cost_To_Reduce_N_To_One {
     public static void main(String[] args) {

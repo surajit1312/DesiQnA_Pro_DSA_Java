@@ -1,4 +1,4 @@
-package DynamicProgramming.Session_4;
+package DynamicProgramming.Session_04;
 
 public class Min_Cost_To_Reach_Destination {
     public static void main(String[] args) {
