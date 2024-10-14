@@ -1,4 +1,4 @@
-package DynamicProgramming.Session_11;
+package DynamicProgramming.Session_12;
 
 public class Minimum_Cost_To_Cross_Or_Reach_End_Of_Array {
     public static void main(String[] args) {
